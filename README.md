@@ -14,29 +14,31 @@ Metodologia
 Como Usar
 1. Requisitos
 2. Instruções de Execução
-Contribuição
-Licença
+
 Introdução
 A previsão de risco de crédito é uma tarefa essencial em instituições financeiras para identificar clientes que possam ter dificuldades em honrar seus compromissos de crédito. Utilizando dados históricos, construímos um modelo de machine learning capaz de prever se um cliente é de alto risco ou baixo risco.
 
-Metodologia
-1. Carregamento dos Dados
+# Metodologia
+# 1. Carregamento dos Dados
 Utilizamos o dataset German Credit Data, disponível no repositório de aprendizado de máquina da UCI. Este dataset contém 21 variáveis que representam características de clientes e sua classificação de risco de crédito (0 para baixo risco e 1 para alto risco).
 
 URL do dataset: German Credit Data
-2. Pré-processamento
+
+# 2. Pré-processamento
 Realizamos o pré-processamento dos dados, que incluiu:
 
 Limpeza de dados: Verificação e tratamento de dados ausentes e inconsistências.
 Normalização: Aplicação de escalonamento em variáveis numéricas (como idade e valor do crédito) para garantir que todas as features estejam na mesma escala.
 Codificação de variáveis categóricas: Transformação de variáveis categóricas em numéricas utilizando One-Hot Encoding.
-3. Modelo
+
+# 3. Modelo
 O modelo escolhido foi o Random Forest, uma técnica que combina múltiplas árvores de decisão para melhorar a precisão e reduzir o overfitting.
 
 Hiperparâmetros principais:
 n_estimators: 100 (número de árvores)
 random_state: 42 (para reprodutibilidade)
-4. Avaliação
+
+# 4. Avaliação
 O modelo foi avaliado usando as seguintes métricas:
 
 Acurácia: A porcentagem de previsões corretas.
