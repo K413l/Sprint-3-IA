@@ -55,8 +55,10 @@ y_pred = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print(confusion_matrix(y_test, y_pred))
 print(classification_report(y_test, y_pred))
-Como Usar
-1. Requisitos
+
+# Como Usar
+# 1. Requisitos
+
 Certifique-se de ter os seguintes pacotes instalados:
 
 Python 3.7+
@@ -65,19 +67,15 @@ NumPy
 Scikit-learn
 Você pode instalar as dependências usando o seguinte comando:
 
-bash
-Copy code
 pip install -r requirements.txt
-2. Instruções de Execução
+
+# 2. Instruções de Execução
+
 Clone este repositório:
-bash
-Copy code
 git clone https://github.com/seuusuario/repositorio-previsao-credito.git
+
 Navegue até o diretório do projeto:
-bash
-Copy code
 cd repositorio-previsao-credito
+
 Execute o script principal para treinar o modelo:
-bash
-Copy code
 python main.py
