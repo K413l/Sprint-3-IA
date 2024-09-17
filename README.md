@@ -74,10 +74,10 @@ pip install -r requirements.txt
 # 2. Instruções de Execução
 
 Clone este repositório:
-git clone https://github.com/seuusuario/repositorio-previsao-credito.git
+git clone https://github.com/K413l/Sprint-3-IA
 
 Navegue até o diretório do projeto:
-cd repositorio-previsao-credito
+cd seu-repositorio
 
 Execute o script principal para treinar o modelo:
 python main.py
